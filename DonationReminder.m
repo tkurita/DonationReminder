@@ -4,7 +4,11 @@
 
 + (void)goToDonation
 {
-	NSString *urlString = [[NSUserDefaults standardUserDefaults] stringForKey:@"DonationURL"];
+	NSDictionary *bundleInfo = [[NSBundle mainBundle] infoDictionary];
+	NSString *urlString = [bundleInfo objectForKey:@"DonationURL"];
+	if (! urlString) {
+		urlString = [[NSUserDefaults standardUserDefaults] stringForKey:@"DonationURL"];
+	}
 	NSAssert(urlString != nil, @"DonationURL is not specified.");
 	
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:urlString]];

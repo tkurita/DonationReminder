@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C0BAB8D0A7DCA2E007AFDE3 /* DonationReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */; };
 		2C0BAB8E0A7DCA2E007AFDE3 /* DonationReminder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C0BABA40A7DCB12007AFDE3 /* DonationReminder.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BABA30A7DCB12007AFDE3 /* DonationReminder.nib */; };
+		2CE176C80F7A285C00003D39 /* DonationReminder.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE176C60F7A285C00003D39 /* DonationReminder.nib */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +19,7 @@
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
 		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
-		2C0BABA50A7DCB1E007AFDE3 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2CE176C70F7A285C00003D39 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* DonationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +70,7 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BABA30A7DCB12007AFDE3 /* DonationReminder.nib */,
+				2CE176C60F7A285C00003D39 /* DonationReminder.nib */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 			);
 			name = Resources;
@@ -150,10 +150,12 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DonationReminder" */;
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 0867D691FE84028FC02AAC07 /* DonationReminder */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* DonationReminder */,
 			);
@@ -165,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0BABA40A7DCB12007AFDE3 /* DonationReminder.nib in Resources */,
+				2CE176C80F7A285C00003D39 /* DonationReminder.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,10 +185,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C0BABA30A7DCB12007AFDE3 /* DonationReminder.nib */ = {
+		2CE176C60F7A285C00003D39 /* DonationReminder.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2C0BABA50A7DCB1E007AFDE3 /* Japanese */,
+				2CE176C70F7A285C00003D39 /* English */,
 			);
 			name = DonationReminder.nib;
 			sourceTree = "<group>";
