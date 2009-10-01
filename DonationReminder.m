@@ -67,7 +67,7 @@
 	NSString *localizedStringKey = @"this software";
 	NSString *productName = NSLocalizedString(localizedStringKey,@"");
 	if ([productName isEqualToString:localizedStringKey]) {
-		productName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+		productName = [[[NSBundle mainBundle] localizedInfoDictionary] objectForKey:@"CFBundleName"];
 	}
 	return productName;
 }

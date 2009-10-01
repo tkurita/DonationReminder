@@ -13,7 +13,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Target_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					155,
+					359,
 					20,
 					48,
 					43,
@@ -54,8 +54,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 259655760;
-			PBXWorkspaceStateSaveDate = 259655760;
+			PBXPerProjectTemplateStateSaveDate = 276055618;
+			PBXWorkspaceStateSaveDate = 276055618;
+		};
+		perUserProjectItems = {
+			2C454604107192EB00AD3397 = 2C454604107192EB00AD3397 /* PlistBookmark */;
+			2CC0B9520F7C676000F3EA5E = 2CC0B9520F7C676000F3EA5E /* PlistBookmark */;
 		};
 		sourceControlManager = 2C0BAAF90A7D949E007AFDE3 /* Source Control */;
 		userBuildSettings = {
@@ -90,6 +94,28 @@
 			sepNavSelRange = "{293, 0}";
 			sepNavVisRect = "{{0, 0}, {824, 514}}";
 		};
+	};
+	2C454604107192EB00AD3397 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2CC0B9520F7C676000F3EA5E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	8DC2EF4F0486A6940098B216 /* DonationReminder */ = {
 		activeExec = 0;
