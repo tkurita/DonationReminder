@@ -68,6 +68,9 @@
 	NSString *productName = NSLocalizedString(localizedStringKey,@"");
 	if ([productName isEqualToString:localizedStringKey]) {
 		productName = [[[NSBundle mainBundle] localizedInfoDictionary] objectForKey:@"CFBundleName"];
+		if (!productName) {
+			productName = productName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+		}
 	}
 	return productName;
 }
