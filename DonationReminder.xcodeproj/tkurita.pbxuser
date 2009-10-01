@@ -81,9 +81,9 @@
 	};
 	2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {692, 1204}}";
-			sepNavSelRange = "{688, 0}";
-			sepNavVisRange = "{0, 1286}";
+			sepNavIntBoundsRect = "{{0, 0}, {570, 1190}}";
+			sepNavSelRange = "{1972, 8}";
+			sepNavVisRange = "{1693, 620}";
 			sepNavVisRect = "{{0, 0}, {712, 612}}";
 			sepNavWindowFrame = "{{291, 133}, {751, 741}}";
 		};
