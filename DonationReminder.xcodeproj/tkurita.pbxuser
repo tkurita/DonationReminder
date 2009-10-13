@@ -54,15 +54,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277105361;
-			PBXWorkspaceStateSaveDate = 277105361;
+			PBXPerProjectTemplateStateSaveDate = 277123505;
+			PBXWorkspaceStateSaveDate = 277123505;
 		};
 		perUserProjectItems = {
 			2C4DC904107B61ED00894BC0 = 2C4DC904107B61ED00894BC0 /* PBXTextBookmark */;
-			2C4DC905107B61ED00894BC0 = 2C4DC905107B61ED00894BC0 /* PBXTextBookmark */;
-			2C4DC906107B61ED00894BC0 = 2C4DC906107B61ED00894BC0 /* PlistBookmark */;
-			2C9860431084584000F01509 /* PlistBookmark */ = 2C9860431084584000F01509 /* PlistBookmark */;
-			2CE6B4B610744B8F005C6B05 = 2CE6B4B610744B8F005C6B05 /* PlistBookmark */;
+			2C98604B1084589400F01509 = 2C98604B1084589400F01509 /* PlistBookmark */;
+			2C98604C1084589400F01509 = 2C98604C1084589400F01509 /* PlistBookmark */;
+			2C986169108491EC00F01509 /* PlistBookmark */ = 2C986169108491EC00F01509 /* PlistBookmark */;
 			2CE6B4B810744B8F005C6B05 = 2CE6B4B810744B8F005C6B05 /* PlistBookmark */;
 			2CE6B4B910744B8F005C6B05 = 2CE6B4B910744B8F005C6B05 /* PBXTextBookmark */;
 			2CE6B4F8107450B7005C6B05 = 2CE6B4F8107450B7005C6B05 /* PBXTextBookmark */;
@@ -113,17 +112,7 @@
 		vrLen = 707;
 		vrLoc = 0;
 	};
-	2C4DC905107B61ED00894BC0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
-		name = "DonationReminder.m: 73";
-		rLen = 0;
-		rLoc = 2176;
-		rType = 0;
-		vrLen = 707;
-		vrLoc = 0;
-	};
-	2C4DC906107B61ED00894BC0 /* PlistBookmark */ = {
+	2C98604B1084589400F01509 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -134,7 +123,7 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	2C9860431084584000F01509 /* PlistBookmark */ = {
+	2C98604C1084589400F01509 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -145,13 +134,12 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	2CE6B4B610744B8F005C6B05 /* PlistBookmark */ = {
+	2C986169108491EC00F01509 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
-			NSHumanReadableCopyright,
 		);
 		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
 		rLen = 0;

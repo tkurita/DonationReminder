@@ -232,6 +232,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,12 +280,14 @@
 								<string>034768DFFF38A50411DB9C8B</string>
 								<string>8DC2EF5B0486A6940098B216</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>0</integer>
+									<integer>20</integer>
+									<integer>19</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -336,12 +340,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2C9860431084584000F01509</string>
+										<string>2C986169108491EC00F01509</string>
 										<key>history</key>
 										<array>
 											<string>2CE6B4F8107450B7005C6B05</string>
 											<string>2C4DC904107B61ED00894BC0</string>
-											<string>2C4DC906107B61ED00894BC0</string>
+											<string>2C98604C1084589400F01509</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -405,9 +409,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2C9860441084584000F01509</string>
+				<string>2C98616A108491EC00F01509</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2C9860451084584000F01509</string>
+				<string>2C98616B108491EC00F01509</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -636,7 +640,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2CE176D60F7A2F6800003D39</string>
-				<string>2C9860461084584000F01509</string>
+				<string>2C98616C108491EC00F01509</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
