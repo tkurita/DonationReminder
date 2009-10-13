@@ -54,19 +54,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 276520145;
-			PBXWorkspaceStateSaveDate = 276520145;
+			PBXPerProjectTemplateStateSaveDate = 277105361;
+			PBXWorkspaceStateSaveDate = 277105361;
 		};
 		perUserProjectItems = {
-			2C4DC8C9107B5CDB00894BC0 /* PBXTextBookmark */ = 2C4DC8C9107B5CDB00894BC0 /* PBXTextBookmark */;
-			2CE6B4B510744B8F005C6B05 = 2CE6B4B510744B8F005C6B05 /* PBXTextBookmark */;
+			2C4DC904107B61ED00894BC0 = 2C4DC904107B61ED00894BC0 /* PBXTextBookmark */;
+			2C4DC905107B61ED00894BC0 = 2C4DC905107B61ED00894BC0 /* PBXTextBookmark */;
+			2C4DC906107B61ED00894BC0 = 2C4DC906107B61ED00894BC0 /* PlistBookmark */;
+			2C9860431084584000F01509 /* PlistBookmark */ = 2C9860431084584000F01509 /* PlistBookmark */;
 			2CE6B4B610744B8F005C6B05 = 2CE6B4B610744B8F005C6B05 /* PlistBookmark */;
 			2CE6B4B810744B8F005C6B05 = 2CE6B4B810744B8F005C6B05 /* PlistBookmark */;
 			2CE6B4B910744B8F005C6B05 = 2CE6B4B910744B8F005C6B05 /* PBXTextBookmark */;
-			2CE6B4BA10744B8F005C6B05 = 2CE6B4BA10744B8F005C6B05 /* PlistBookmark */;
 			2CE6B4F8107450B7005C6B05 = 2CE6B4F8107450B7005C6B05 /* PBXTextBookmark */;
 			2CE6B4F9107450B7005C6B05 = 2CE6B4F9107450B7005C6B05 /* PBXTextBookmark */;
-			2CE6B4FD10745103005C6B05 = 2CE6B4FD10745103005C6B05 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2C0BAAF90A7D949E007AFDE3 /* Source Control */;
 		userBuildSettings = {
@@ -90,7 +90,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {721, 1218}}";
 			sepNavSelRange = "{2176, 0}";
-			sepNavVisRange = "{1609, 808}";
+			sepNavVisRange = "{0, 707}";
 			sepNavVisRect = "{{0, 0}, {712, 612}}";
 			sepNavWindowFrame = "{{291, 133}, {751, 741}}";
 		};
@@ -103,25 +103,47 @@
 			sepNavVisRect = "{{0, 0}, {824, 514}}";
 		};
 	};
-	2C4DC8C9107B5CDB00894BC0 /* PBXTextBookmark */ = {
+	2C4DC904107B61ED00894BC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
 		name = "DonationReminder.m: 73";
 		rLen = 0;
 		rLoc = 2176;
 		rType = 0;
-		vrLen = 808;
-		vrLoc = 1609;
+		vrLen = 707;
+		vrLoc = 0;
 	};
-	2CE6B4B510744B8F005C6B05 /* PBXTextBookmark */ = {
+	2C4DC905107B61ED00894BC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
-		name = "DonationReminder.m: 70";
-		rLen = 12;
-		rLoc = 2033;
+		name = "DonationReminder.m: 73";
+		rLen = 0;
+		rLoc = 2176;
 		rType = 0;
-		vrLen = 708;
-		vrLoc = 1609;
+		vrLen = 707;
+		vrLoc = 0;
+	};
+	2C4DC906107B61ED00894BC0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2C9860431084584000F01509 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	2CE6B4B610744B8F005C6B05 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -156,18 +178,6 @@
 		vrLen = 708;
 		vrLoc = 1609;
 	};
-	2CE6B4BA10744B8F005C6B05 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			NSHumanReadableCopyright,
-		);
-		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
 	2CE6B4F8107450B7005C6B05 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */;
@@ -187,16 +197,6 @@
 		rType = 0;
 		vrLen = 293;
 		vrLoc = 0;
-	};
-	2CE6B4FD10745103005C6B05 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
-		name = "DonationReminder.m: 73";
-		rLen = 0;
-		rLoc = 2176;
-		rType = 0;
-		vrLen = 811;
-		vrLoc = 1606;
 	};
 	8DC2EF4F0486A6940098B216 /* DonationReminder */ = {
 		activeExec = 0;
