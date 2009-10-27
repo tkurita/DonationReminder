@@ -11,5 +11,6 @@
 - (IBAction)makeDonation:(id)sender;
 + (id)remindDonation;
 + (void)goToDonation;
++ (BOOL)isWindowOpened;
 
 @end

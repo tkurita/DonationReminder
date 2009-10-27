@@ -232,8 +232,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -286,12 +284,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>19</integer>
+									<integer>3</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {225, 474}}</string>
+							<string>{{0, 0}, {225, 628}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -303,7 +302,7 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {242, 492}}</string>
+						<string>{{0, 0}, {242, 646}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>SCMStatusColumn</string>
@@ -312,7 +311,7 @@
 							<real>203</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>61 335 1029 533 0 0 1440 878 </string>
+						<string>61 181 1034 687 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -323,12 +322,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>DonationReminder.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -336,22 +337,28 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>DonationReminder.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2C986169108491EC00F01509</string>
+										<string>2C60E36610971C420072275A</string>
 										<key>history</key>
 										<array>
-											<string>2CE6B4F8107450B7005C6B05</string>
-											<string>2C4DC904107B61ED00894BC0</string>
-											<string>2C98604C1084589400F01509</string>
+											<string>2C60E35D10971C420072275A</string>
+											<string>2C60E35E10971C420072275A</string>
+											<string>2C60E35F10971C420072275A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>2CE6B4B810744B8F005C6B05</string>
 											<string>2CE6B4B910744B8F005C6B05</string>
 											<string>2CE6B4F9107450B7005C6B05</string>
+											<string>2C60E36010971C420072275A</string>
+											<string>2C60E36110971C420072275A</string>
+											<string>2C60E36210971C420072275A</string>
+											<string>2C60E36310971C420072275A</string>
+											<string>2C60E36410971C420072275A</string>
+											<string>2C60E36510971C420072275A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -363,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {782, 382}}</string>
+								<string>{{0, 0}, {787, 536}}</string>
 								<key>RubberWindowFrame</key>
-								<string>61 335 1029 533 0 0 1440 878 </string>
+								<string>61 181 1034 687 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>382pt</string>
+							<string>536pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -383,9 +390,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 387}, {782, 105}}</string>
+								<string>{{0, 541}, {787, 105}}</string>
 								<key>RubberWindowFrame</key>
-								<string>61 335 1029 533 0 0 1440 878 </string>
+								<string>61 181 1034 687 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -394,7 +401,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>782pt</string>
+					<string>787pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -409,9 +416,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2C98616A108491EC00F01509</string>
+				<string>2C60E36710971C420072275A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2C98616B108491EC00F01509</string>
+				<string>2C60E36810971C420072275A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -563,7 +570,7 @@
 		<string>/Users/tkurita/Dev/Projects/DonationReminder/trunk/DonationReminder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>61 335 1029 533 0 0 1440 878 </string>
+	<string>61 181 1034 687 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -640,7 +647,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2CE176D60F7A2F6800003D39</string>
-				<string>2C98616C108491EC00F01509</string>
+				<string>2C60E36910971C420072275A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

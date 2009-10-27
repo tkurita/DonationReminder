@@ -1,5 +1,8 @@
 #import "DonationReminder.h"
 
+
+static DonationReminder *sharedDonationReminder = nil;
+
 @implementation DonationReminder
 
 + (void)goToDonation
@@ -39,11 +42,28 @@
 	[[self window] close];
 }
 
++ (id)sharedDonationReminder
+{
+	if (!sharedDonationReminder) {
+		sharedDonationReminder = [[self alloc] initWithWindowNibName:@"DonationReminder"];
+	}
+	return sharedDonationReminder;
+}
+
++ (BOOL)isWindowOpened
+{
+	BOOL result = NO;
+	if (sharedDonationReminder) {
+		result = [[sharedDonationReminder window] isVisible];
+	}
+	return result;
+}
+
 + (id)displayReminder
 {
-	id newObj = [[self alloc] initWithWindowNibName:@"DonationReminder"];
-	[newObj showWindow:newObj];
-	return newObj;
+	DonationReminder *a_reminder = [self sharedDonationReminder];
+	[a_reminder showWindow:self];
+	return a_reminder;
 }
 
 + (id)remindDonation
