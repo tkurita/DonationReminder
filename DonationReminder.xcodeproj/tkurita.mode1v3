@@ -232,6 +232,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -284,9 +286,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>20</integer>
+									<integer>19</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -322,8 +323,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -338,27 +337,17 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>DonationReminder.h</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>2C60E36610971C420072275A</string>
 										<key>history</key>
 										<array>
 											<string>2C60E35D10971C420072275A</string>
 											<string>2C60E35E10971C420072275A</string>
-											<string>2C60E35F10971C420072275A</string>
+											<string>2C60E3D5109728C80072275A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>2CE6B4B810744B8F005C6B05</string>
 											<string>2CE6B4B910744B8F005C6B05</string>
 											<string>2CE6B4F9107450B7005C6B05</string>
-											<string>2C60E36010971C420072275A</string>
-											<string>2C60E36110971C420072275A</string>
-											<string>2C60E36210971C420072275A</string>
-											<string>2C60E36310971C420072275A</string>
-											<string>2C60E36410971C420072275A</string>
-											<string>2C60E36510971C420072275A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -416,9 +405,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2C60E36710971C420072275A</string>
+				<string>2CB95F5212498E2100F4523E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2C60E36810971C420072275A</string>
+				<string>2CB95F5312498E2100F4523E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -566,6 +555,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>2CB95F5812498EB100F4523E</string>
 		<string>2CE176D60F7A2F6800003D39</string>
 		<string>/Users/tkurita/Dev/Projects/DonationReminder/trunk/DonationReminder.xcodeproj</string>
 	</array>
@@ -608,6 +598,8 @@
 							<string>215pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -647,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2CE176D60F7A2F6800003D39</string>
-				<string>2C60E36910971C420072275A</string>
+				<string>2CB95F5612498E8900F4523E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -1253,22 +1245,40 @@
 			<string>538 42 401 187 0 0 1280 1002 </string>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.projectFormatConflicts</string>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>2CB95F5712498EB100F4523E</string>
+							</dict>
+							<key>GeometryConfiguration</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {472, 302}}</string>
+								<key>RubberWindowFrame</key>
+								<string>82 523 472 322 0 0 1440 878 </string>
+							</dict>
 							<key>Module</key>
 							<string>XCProjectFormatConflictsModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>302pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>302pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1279,10 +1289,20 @@
 			</array>
 			<key>StatusbarIsVisible</key>
 			<false/>
+			<key>TableOfContents</key>
+			<array>
+				<string>2CB95F5812498EB100F4523E</string>
+				<string>2CB95F5912498EB100F4523E</string>
+				<string>2CB95F5712498EB100F4523E</string>
+			</array>
 			<key>WindowContentMinSize</key>
 			<string>450 300</string>
 			<key>WindowString</key>
-			<string>50 850 472 307 0 0 1440 877</string>
+			<string>82 523 472 322 0 0 1440 878 </string>
+			<key>WindowToolGUID</key>
+			<string>2CB95F5812498EB100F4523E</string>
+			<key>WindowToolIsVisible</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
