@@ -7,7 +7,7 @@ static DonationReminder *sharedDonationReminder = nil;
 
 + (void)goToDonation
 {
-	NSDictionary *bundleInfo = [[NSBundle mainBundle] infoDictionary];
+	NSDictionary *bundleInfo = [[NSBundle mainBundle] localizedInfoDictionary];
 	NSString *urlString = [bundleInfo objectForKey:@"DonationURL"];
 	if (! urlString) {
 		urlString = [[NSUserDefaults standardUserDefaults] stringForKey:@"DonationURL"];
