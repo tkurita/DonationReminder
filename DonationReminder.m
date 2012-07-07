@@ -10,6 +10,9 @@ static DonationReminder *sharedDonationReminder = nil;
 	NSDictionary *bundleInfo = [[NSBundle mainBundle] localizedInfoDictionary];
 	NSString *urlString = [bundleInfo objectForKey:@"DonationURL"];
 	if (! urlString) {
+		bundleInfo = [[NSBundle mainBundle] infoDictionary];
+		urlString = [bundleInfo objectForKey:@"DonationURL"];		
+	} else if (! urlString) {
 		urlString = [[NSUserDefaults standardUserDefaults] stringForKey:@"DonationURL"];
 	}
 	NSAssert(urlString != nil, @"DonationURL is not specified.");
