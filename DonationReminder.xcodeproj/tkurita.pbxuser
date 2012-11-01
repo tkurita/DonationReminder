@@ -12,7 +12,7 @@
 					20,
 					649,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -49,12 +49,63 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 363361182;
-			PBXWorkspaceStateSaveDate = 363361182;
+			PBXPerProjectTemplateStateSaveDate = 373459471;
+			PBXWorkspaceStateSaveDate = 373459471;
+		};
+		perUserProjectItems = {
+			2C4FCC1D15AD6B6400031EA1 = 2C4FCC1D15AD6B6400031EA1 /* PBXTextBookmark */;
+			2C4FCC1E15AD6B6400031EA1 = 2C4FCC1E15AD6B6400031EA1 /* PBXTextBookmark */;
+			2C4FCC1F15AD6B6400031EA1 = 2C4FCC1F15AD6B6400031EA1 /* PBXTextBookmark */;
+			2CE823BE16428A30001DEA83 /* PBXBookmark */ = 2CE823BE16428A30001DEA83 /* PBXBookmark */;
+			2CE823BF16428A30001DEA83 /* PlistBookmark */ = 2CE823BF16428A30001DEA83 /* PlistBookmark */;
 		};
 		sourceControlManager = 2C586D3F15A3352A00A170EE /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1669, 945}";
+		};
+	};
+	2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 425}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 317}";
+		};
+	};
+	2C4FCC1D15AD6B6400031EA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */;
+		name = "DonationReminder.h: 13";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	2C4FCC1E15AD6B6400031EA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
+		name = "DonationReminder.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 0;
+	};
+	2C4FCC1F15AD6B6400031EA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */;
+		name = "DonationReminder.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 1669;
 	};
 	2C586D3F15A3352A00A170EE /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -69,6 +120,21 @@
 	2C586D4015A3352A00A170EE /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	2CE823BE16428A30001DEA83 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+	};
+	2CE823BF16428A30001DEA83 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	8DC2EF4F0486A6940098B216 /* DonationReminder */ = {
 		activeExec = 0;
