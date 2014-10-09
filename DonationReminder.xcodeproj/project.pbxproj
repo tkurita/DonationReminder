@@ -241,6 +241,7 @@
 					ppc,
 					"$(ARCHS_STANDARD_32_64_BIT)",
 				);
+				BUILD_CONDITION = "Mac OS X 10.4 or later, Retain/Release";
 				CURRENT_PROJECT_VERSION = 8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 8;
@@ -332,6 +333,7 @@
 					ppc,
 					"$(ARCHS_STANDARD_32_64_BIT)",
 				);
+				BUILD_CONDITION = "Mac OS X 10.4 or later, support Garbage Collection";
 				CURRENT_PROJECT_VERSION = 8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 8;

@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	0867D690FE84028FC02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = "Release-GC";
+		activeBuildConfigurationName = Release;
 		activeTarget = 8DC2EF4F0486A6940098B216 /* DonationReminder */;
 		codeSenseManager = 2C586D4015A3352A00A170EE /* Code sense */;
 		perUserDictionary = {
@@ -10,7 +10,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					649,
+					627,
 					20,
 					48,
 					43,
@@ -32,7 +32,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					609,
+					587,
 					60,
 					20,
 					48,
@@ -49,14 +49,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 374376085;
-			PBXWorkspaceStateSaveDate = 374376085;
+			PBXPerProjectTemplateStateSaveDate = 434508079;
+			PBXWorkspaceStateSaveDate = 434508079;
 		};
 		perUserProjectItems = {
-			2C4FCC1D15AD6B6400031EA1 /* PBXTextBookmark */ = 2C4FCC1D15AD6B6400031EA1 /* PBXTextBookmark */;
-			2C4FCC1F15AD6B6400031EA1 /* PBXTextBookmark */ = 2C4FCC1F15AD6B6400031EA1 /* PBXTextBookmark */;
-			2CCDFC7116508AFB00591CB2 /* PlistBookmark */ = 2CCDFC7116508AFB00591CB2 /* PlistBookmark */;
-			2CCDFC7216508AFB00591CB2 /* PlistBookmark */ = 2CCDFC7216508AFB00591CB2 /* PlistBookmark */;
+			2C4FCC1D15AD6B6400031EA1 = 2C4FCC1D15AD6B6400031EA1 /* PBXTextBookmark */;
+			2C4FCC1F15AD6B6400031EA1 = 2C4FCC1F15AD6B6400031EA1 /* PBXTextBookmark */;
+			2C8F96B219E61156002C7FC6 /* PBXBookmark */ = 2C8F96B219E61156002C7FC6 /* PBXBookmark */;
+			2C8F96B619E61264002C7FC6 /* PlistBookmark */ = 2C8F96B619E61264002C7FC6 /* PlistBookmark */;
+			2C8F96B719E61264002C7FC6 /* PlistBookmark */ = 2C8F96B719E61264002C7FC6 /* PlistBookmark */;
+			2C8F96BE19E61264002C7FC6 /* PlistBookmark */ = 2C8F96BE19E61264002C7FC6 /* PlistBookmark */;
+			2CCDFC7116508AFB00591CB2 = 2CCDFC7116508AFB00591CB2 /* PlistBookmark */;
+			2CCDFC7216508AFB00591CB2 = 2CCDFC7216508AFB00591CB2 /* PlistBookmark */;
 		};
 		sourceControlManager = 2C586D3F15A3352A00A170EE /* Source Control */;
 		userBuildSettings = {
@@ -110,7 +114,11 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	2CCDFC7116508AFB00591CB2 /* PlistBookmark */ = {
+	2C8F96B219E61156002C7FC6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+	};
+	2C8F96B619E61264002C7FC6 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -121,7 +129,19 @@
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
-	2CCDFC7216508AFB00591CB2 /* PlistBookmark */ = {
+	2C8F96B719E61264002C7FC6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSHumanReadableCopyright,
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 35;
+	};
+	2C8F96BE19E61264002C7FC6 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -131,6 +151,28 @@
 		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
 		rLen = 0;
 		rLoc = 9223372036854775807;
+	};
+	2CCDFC7116508AFB00591CB2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	2CCDFC7216508AFB00591CB2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tkurita/Dev/Projects/DonationReminder/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */ = {
 		uiCtxt = {
