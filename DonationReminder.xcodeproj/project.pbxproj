@@ -19,7 +19,6 @@
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
 		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
-		2CCDF889164D604900591CB2 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		2CE176C70F7A285C00003D39 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		2CE6B4AA107447EE005C6B05 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		2CE6B4AB10744807005C6B05 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_CN; path = zh_CN.lproj/DonationReminder.nib; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 			children = (
 				2CE176C60F7A285C00003D39 /* DonationReminder.nib */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
-				2CCDF889164D604900591CB2 /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
