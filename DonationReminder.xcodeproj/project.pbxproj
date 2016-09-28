@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4A363319E61FC40031E521 /* DonationReminder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4A363519E61FC40031E521 /* DonationReminder.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE176C60F7A285C00003D39 /* DonationReminder.nib */; };
+		2C4A363719E61FC40031E521 /* DonationReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */; };
+		2C4A363919E61FC40031E521 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		2CC26CB41D9BCD9E0056177E /* DonationReminderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */; };
+		2CC26CB51D9BCD9E0056177E /* DonationReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
+		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
+		2C4A363E19E61FC40031E521 /* DonationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DonationReminder-ARC-Info.plist"; path = "/Users/tkurita/Dev/Projects/TeX Tools for mi/TeXBridge/TeXBridge/DonationReminder/DonationReminder-ARC-Info.plist"; sourceTree = "<absolute>"; };
+		2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminderController.h; sourceTree = "<group>"; };
+		2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminderController.m; sourceTree = "<group>"; };
+		2CE176C70F7A285C00003D39 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2CE6B4AA107447EE005C6B05 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2CE6B4AB10744807005C6B05 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_CN; path = zh_CN.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2CE6B4AC1074481E005C6B05 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4A363819E61FC40031E521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4A363919E61FC40031E521 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A363E19E61FC40031E521 /* DonationReminder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* DonationReminder */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = DonationReminder;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CE176C60F7A285C00003D39 /* DonationReminder.nib */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */,
+				2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */,
+				2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */,
+				2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4A363219E61FC40031E521 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC26CB41D9BCD9E0056177E /* DonationReminderController.h in Headers */,
+				2C4A363319E61FC40031E521 /* DonationReminder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C4A363119E61FC40031E521 /* DonationReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4A363A19E61FC40031E521 /* Build configuration list for PBXNativeTarget "DonationReminder" */;
+			buildPhases = (
+				2C4A363219E61FC40031E521 /* Headers */,
+				2C4A363419E61FC40031E521 /* Resources */,
+				2C4A363619E61FC40031E521 /* Sources */,
+				2C4A363819E61FC40031E521 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonationReminder;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = DonationReminder;
+			productReference = 2C4A363E19E61FC40031E521 /* DonationReminder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DonationReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* DonationReminder */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4A363119E61FC40031E521 /* DonationReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4A363419E61FC40031E521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4A363519E61FC40031E521 /* DonationReminder.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4A363619E61FC40031E521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4A363719E61FC40031E521 /* DonationReminder.m in Sources */,
+				2CC26CB51D9BCD9E0056177E /* DonationReminderController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CE176C60F7A285C00003D39 /* DonationReminder.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE176C70F7A285C00003D39 /* English */,
+				2CE6B4AA107447EE005C6B05 /* Japanese */,
+				2CE6B4AB10744807005C6B05 /* zh_CN */,
+				2CE6B4AC1074481E005C6B05 /* zh_TW */,
+			);
+			name = DonationReminder.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPYRIGHT = "Copyright 2006-2016, Tetsuro KURITA";
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPYRIGHT = "Copyright 2006-2016, Tetsuro KURITA";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C4A363B19E61FC40031E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 12;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DonationReminder_Prefix.pch;
+				INFOPLIST_FILE = "DonationReminder-ARC-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.script-factory.DonationReminder";
+				PRODUCT_NAME = DonationReminder;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		2C4A363C19E61FC40031E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_CONDITION = "Mac OS X 10.7 or later, ARC";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 12;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 12;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DonationReminder_Prefix.pch;
+				INFOPLIST_FILE = "DonationReminder-ARC-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.script-factory.DonationReminder";
+				PRODUCT_NAME = DonationReminder;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DonationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4A363A19E61FC40031E521 /* Build configuration list for PBXNativeTarget "DonationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A363B19E61FC40031E521 /* Debug */,
+				2C4A363C19E61FC40031E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
