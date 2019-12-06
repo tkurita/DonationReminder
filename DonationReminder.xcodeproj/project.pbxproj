@@ -22,7 +22,7 @@
 		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
 		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
 		2C4A363E19E61FC40031E521 /* DonationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DonationReminder-ARC-Info.plist"; path = "/Users/tkurita/Dev/Projects/TeX Tools for mi/TeXBridge/TeXBridge/DonationReminder/DonationReminder-ARC-Info.plist"; sourceTree = "<absolute>"; };
+		2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonationReminder-ARC-Info.plist"; sourceTree = "<group>"; };
 		2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminderController.h; sourceTree = "<group>"; };
 		2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminderController.m; sourceTree = "<group>"; };
 		2CE6B4AB10744807005C6B05 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_CN; path = zh_CN.lproj/DonationReminder.nib; sourceTree = "<group>"; };
