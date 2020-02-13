@@ -1,0 +1,18 @@
+
+/* Class = "NSWindow"; title = "捐款资助"; ObjectID = "5"; */
+"5.title" = "捐款资助";
+
+/* Class = "NSButtonCell"; title = "捐款资助"; ObjectID = "20"; */
+"20.title" = "捐款资助";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "21"; */
+"21.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "已捐款资助 / 不再显示此讯息。"; ObjectID = "22"; */
+"22.title" = "已捐款资助 / 不再显示此讯息。";
+
+/* Class = "NSTextFieldCell"; title = "我们花费很多时间和精力开发 %@. 当您需要长久使用此产品时, 适度考虑资助或帮助我们继续开发."; ObjectID = "23"; */
+"23.title" = "我们花费很多时间和精力开发 %@. 当您需要长久使用此产品时, 适度考虑资助或帮助我们继续开发.";
+
+/* Class = "NSTextFieldCell"; title = "假如您有金融卡（银行卡）, 您可以通过 PayPal 进行捐款."; ObjectID = "24"; */
+"24.title" = "假如您有金融卡（银行卡）, 您可以通过 PayPal 进行捐款.";

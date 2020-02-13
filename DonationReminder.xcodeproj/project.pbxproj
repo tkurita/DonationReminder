@@ -21,14 +21,14 @@
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
 		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
+		2C3938D523F5A4AF0089AA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2C3938D623F5A4DB0089AA73 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/DonationReminder.strings; sourceTree = "<group>"; };
+		2C3938D723F5A4E20089AA73 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = zh_TW.lproj/DonationReminder.strings; sourceTree = "<group>"; };
+		2C3938D823F5A4EF0089AA73 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DonationReminder.strings; sourceTree = "<group>"; };
 		2C4A363E19E61FC40031E521 /* DonationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonationReminder-ARC-Info.plist"; sourceTree = "<group>"; };
 		2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminderController.h; sourceTree = "<group>"; };
 		2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminderController.m; sourceTree = "<group>"; };
-		2CE6B4AB10744807005C6B05 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_CN; path = zh_CN.lproj/DonationReminder.nib; sourceTree = "<group>"; };
-		2CE6B4AC1074481E005C6B05 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/DonationReminder.nib; sourceTree = "<group>"; };
-		2CF638171DD199D800C149CF /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/DonationReminder.nib; sourceTree = "<group>"; };
-		2CF638181DD199DF00C149CF /* ja */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ja; path = ja.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -173,6 +173,7 @@
 				zh_TW,
 				en,
 				ja,
+				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* DonationReminder */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -211,10 +212,10 @@
 		2CE176C60F7A285C00003D39 /* DonationReminder.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2CE6B4AB10744807005C6B05 /* zh_CN */,
-				2CE6B4AC1074481E005C6B05 /* zh_TW */,
-				2CF638171DD199D800C149CF /* en */,
-				2CF638181DD199DF00C149CF /* ja */,
+				2C3938D523F5A4AF0089AA73 /* Base */,
+				2C3938D623F5A4DB0089AA73 /* zh-Hans */,
+				2C3938D723F5A4E20089AA73 /* zh-Hant */,
+				2C3938D823F5A4EF0089AA73 /* ja */,
 			);
 			name = DonationReminder.nib;
 			sourceTree = "<group>";
@@ -310,9 +311,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 15;
+				DYLIB_CURRENT_VERSION = 16;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -321,7 +322,7 @@
 				INFOPLIST_FILE = "DonationReminder-ARC-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MARKETING_VERSION = 1.3.2;
+				MARKETING_VERSION = 1.3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.script-factory.DonationReminder";
 				PRODUCT_NAME = DonationReminder;
 				SKIP_INSTALL = YES;
@@ -336,9 +337,9 @@
 				BUILD_CONDITION = "Mac OS X 10.7 or later, ARC";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 15;
+				DYLIB_CURRENT_VERSION = 16;
 				FRAMEWORK_VERSION = A;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -346,7 +347,7 @@
 				INFOPLIST_FILE = "DonationReminder-ARC-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MARKETING_VERSION = 1.3.2;
+				MARKETING_VERSION = 1.3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.script-factory.DonationReminder";
 				PRODUCT_NAME = DonationReminder;
 				SKIP_INSTALL = YES;
