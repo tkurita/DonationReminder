@@ -22,13 +22,13 @@
 		2C0BAB8B0A7DCA2E007AFDE3 /* DonationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminder.m; sourceTree = "<group>"; };
 		2C0BAB8C0A7DCA2E007AFDE3 /* DonationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder.h; sourceTree = "<group>"; };
 		2C3938D523F5A4AF0089AA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DonationReminder.nib; sourceTree = "<group>"; };
-		2C3938D623F5A4DB0089AA73 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/DonationReminder.strings; sourceTree = "<group>"; };
-		2C3938D723F5A4E20089AA73 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = zh_TW.lproj/DonationReminder.strings; sourceTree = "<group>"; };
-		2C3938D823F5A4EF0089AA73 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DonationReminder.strings; sourceTree = "<group>"; };
 		2C4A363E19E61FC40031E521 /* DonationReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonationReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4A363F19E61FC50031E521 /* DonationReminder-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonationReminder-ARC-Info.plist"; sourceTree = "<group>"; };
+		2C61709B23FAD8EC0016A63D /* ja */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ja; path = ja.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		2CC26CB21D9BCD9E0056177E /* DonationReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminderController.h; sourceTree = "<group>"; };
 		2CC26CB31D9BCD9E0056177E /* DonationReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationReminderController.m; sourceTree = "<group>"; };
+		2CF69B5B23FADA5B003E5D6E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "zh-Hans"; path = zh_CN.lproj/DonationReminder.nib; sourceTree = "<group>"; };
+		2CF69B5C23FADA61003E5D6E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "zh-Hant"; path = zh_TW.lproj/DonationReminder.nib; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* DonationReminder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationReminder_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -213,9 +213,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C3938D523F5A4AF0089AA73 /* Base */,
-				2C3938D623F5A4DB0089AA73 /* zh-Hans */,
-				2C3938D723F5A4E20089AA73 /* zh-Hant */,
-				2C3938D823F5A4EF0089AA73 /* ja */,
+				2C61709B23FAD8EC0016A63D /* ja */,
+				2CF69B5B23FADA5B003E5D6E /* zh-Hans */,
+				2CF69B5C23FADA61003E5D6E /* zh-Hant */,
 			);
 			name = DonationReminder.nib;
 			sourceTree = "<group>";
